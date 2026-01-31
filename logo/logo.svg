@@ -1,0 +1,30 @@
+<svg width="250" height="60" viewBox="0 0 250 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="10%" stop-color="#00EDFF" />
+      <stop offset="90%" stop-color="#39FF14" />
+    </linearGradient>
+    <style>
+      .dynamic-text {
+        font-family: Arial, sans-serif;
+        transform: skewX(-10deg);
+      }
+    </style>
+  </defs>
+
+  <rect width="250" height="60" rx="4" fill="#F4F7F8" />
+
+  <g transform="translate(10, 8) scale(0.38) skewX(-10)">
+    <path d="M20 10 L40 10 L35 60 L15 60 Z" fill="url(#brandGradient)" />
+    <path d="M15 65 L35 65 L30 115 L10 115 Z" fill="url(#brandGradient)" />
+    <path d="M40 55 L75 35 V60 L45 80 V55 Z" fill="#39FF14" opacity="0.9" />
+    <path d="M65 10 L85 10 L80 60 L60 60 Z" fill="url(#brandGradient)" />
+    <path d="M60 65 L80 65 L75 115 L55 115 Z" fill="url(#brandGradient)" />
+  </g>
+
+  <text x="55" y="30" class="dynamic-text" font-size="26" font-weight="900" fill="#003B46" letter-spacing="-1">HARISH</text>
+  
+  <path d="M55 36 Q 130 33 200 36 L 198 38 Q 128 35 53 38 Z" fill="url(#brandGradient)" />
+
+  <text x="56" y="52" class="dynamic-text" font-size="14" font-weight="600" fill="#077B8A" letter-spacing="6">FRP</text>
+</svg>
